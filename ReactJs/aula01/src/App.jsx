@@ -1,11 +1,11 @@
-// import { AulaUseMemo } from "./pages/Aula-useMemo"
-// import { Login } from './pages/Login'
+import { AulaComponenteDecisao } from "./pages/Aula-ComponenteDecisao"
 
-// export const App = () => {
-//   return (
-//     <Login />
-//   )
-// }
+
+export const App = () => {
+  return (
+    <AulaComponenteDecisao />
+  )
+}
 
 // useEffect
 // Imutabilidade
