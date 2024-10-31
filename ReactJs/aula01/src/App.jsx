@@ -1,9 +1,9 @@
-import { AulaImutabilidadeArray } from "./pages/Aula-imutabilidadeArray"
+import { RequestApi } from "./pages/RequestApi"
 
 
 export const App = () => {
   return (
-    <AulaImutabilidadeArray />
+    < RequestApi />
   )
 }
 
