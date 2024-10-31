@@ -1,3 +1,4 @@
+import { Exercicio1 } from "./Exercicios/exercicio1"
 import { AulaUseMemo } from "./pages/Aula-useMemo"
 
 export const App = () => {
@@ -11,3 +12,7 @@ export const App = () => {
 // Componente de Decisao
 // Rotas
 // Api axios
+// {Exercicio1 /}
+// {Exercicio2 /}
+// {Exercicio3 /}
+// {Exercicio4 /}
