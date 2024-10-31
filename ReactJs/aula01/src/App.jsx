@@ -1,9 +1,9 @@
-import { AulaComponenteDecisao } from "./pages/Aula-ComponenteDecisao"
+import { AulaImutabilidade } from "./pages/Aula-imutabilidade"
 
 
 export const App = () => {
   return (
-    <AulaComponenteDecisao />
+    <AulaImutabilidade />
   )
 }
 
