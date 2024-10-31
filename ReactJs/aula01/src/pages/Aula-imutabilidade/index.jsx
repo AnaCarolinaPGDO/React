@@ -1,6 +1,8 @@
-
+import { useState } from "react";
 
 export const AulaImutabilidade = () => {
+
+    const [] = useState();
     return (
         <div>
             <h2>Aula de Imutabilidade</h2>
