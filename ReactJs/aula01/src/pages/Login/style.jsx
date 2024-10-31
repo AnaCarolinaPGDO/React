@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #838383;
+  background-color: #e0e0e4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,19 +9,16 @@ export const Container = styled.div`
 `;
 
 export const ContentForms = styled.div`
-  width: 30%;
-  height: 40%;
+  width: 20%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: #A6CFEA;
-  border-radius: 15px 35px 15px 35px;
-  gap: 20px;
+  background-color: #ffffff;
   padding: 0 20px;
+  box-shadow: 50cap;
 `;
 
-export const Tittle = styled.h1`
-  font-size: 45px;
-  color: #000;
+export const button = styled.h1`
+  background-color: aqua;
 `;

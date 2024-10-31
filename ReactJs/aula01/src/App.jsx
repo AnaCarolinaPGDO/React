@@ -1,9 +1,9 @@
-import { Exercicio1 } from "./Exercicios/exercicio1"
 import { AulaUseMemo } from "./pages/Aula-useMemo"
+import { Login } from './pages/Login'
 
 export const App = () => {
   return (
-    <AulaUseMemo />
+    <Login />
   )
 }
 
@@ -12,3 +12,4 @@ export const App = () => {
 // Componente de Decisao
 // Rotas
 // Api axios
+{ Login } 
