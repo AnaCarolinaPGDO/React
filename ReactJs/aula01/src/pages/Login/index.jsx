@@ -7,8 +7,6 @@ export const Login = () => {
   const handleLogin = () => {
     alert("Acesso liberado!");
   };
-
-
   return (
     <Container>
 <div class='text1'>
@@ -41,6 +39,9 @@ export const Login = () => {
         <span>para uma celebridade, uma marca ou empresa.</span>
         
       </ContentForms>
+
+      
     </Container>
   );
+
 };

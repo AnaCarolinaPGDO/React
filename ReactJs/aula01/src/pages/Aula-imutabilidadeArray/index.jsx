@@ -30,7 +30,7 @@ export const AulaImutabilidadeArray = () => {
 
   return (
     <Container>
-        Aula-ImutabilidadeArray
+        Bem-Vindo!
 
         {posts.map(post => (
             <span>{post.post}</span>

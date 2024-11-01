@@ -1,11 +1,13 @@
 * {
-  background-color: rgb(39, 39, 39)
-}
-
-.container {
   background-color: #333333;
 }
+.home-container {
+  background-color: #333333;
+  padding: 20px;
+}
 
-.CardContainer {
-  background-color: #ffffff
+.card-container {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
 }
