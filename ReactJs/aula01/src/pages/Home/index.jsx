@@ -11,7 +11,6 @@ export const Home = () => {
       <h1>Facebook</h1>
       <div className="card-container">
         <AulaImutabilidadeArray/>
-      
       </div>
     </div>
   );
