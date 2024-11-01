@@ -6,7 +6,7 @@ export const ContainerText = ({children, nome}) => {
     <div>
       {/* <ButtonComponents nome="Botao no ContainerText"/> */}
 
-      Titulo do modal {nome}
+      Bem vindo ao site! {nome}
 
       {children}
     </div>
