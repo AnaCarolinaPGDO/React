@@ -1,8 +1,8 @@
-import { RequestApi } from "./pages/RequestApi"
+import { Home } from "./pages/Home"
 
 export const App = () => {
   return (
-    <RequestApi />
+    < Home />
   )
 }
 
