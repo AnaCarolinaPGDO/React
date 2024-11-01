@@ -1,14 +1,9 @@
 import { RequestApi } from "./pages/RequestApi"
 
-
 export const App = () => {
   return (
-    < RequestApi />
+    <RequestApi />
   )
 }
 
-// useEffect
-// Imutabilidade
-// Componente de Decisao
-// Rotas
-// Api axios
+// Rotas - useContext

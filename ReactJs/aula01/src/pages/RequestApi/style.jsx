@@ -1,14 +1,14 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #a3a3b9;
+  background-color: #00000080;
   height: 100vh;
-
-  @media (min-width:768px) {
-    
-}
-
-@media (min-width:1024px) {
-  width: 50%;
-}
+  
+  @media(min-width: 768px) {
+    background-color: red;
+  }
+  
+  @media(min-width: 1024px) {
+    background-color: #00000080;
+  }
 `;

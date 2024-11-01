@@ -1,32 +1,43 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Container } from './style';
-import { CgLogIn } from "react-icons/cg";
-import { GetUsers } from '../../services/GetUsers';
+import axios from 'axios';
+import { FaRegHeart, FaMap } from "react-icons/fa";
 
 export const RequestApi = () => {
 
-    // const carregar = async () => {};
+  const [openModal, setOpenModal] = useState(false);
 
-    async function carregarDadosApi(){
+  const handleModal = () => {
+    setOpenModal(!openModal);
+  }
 
-        const response = await GetUsers();
-        
+  // const carregar = async () => {};
 
-        if(response.status === 200) {
-            console.log('Returno api', response.data);
-        } else {
-            console.error('Falha ao carregar dados');
-        }
+  async function carregarDadosApi(){
+
+    const url = 'https://66f4ad8277b5e889709a277e.mockapi.io/api/v1/users';
+
+    try {
+      const resposta = await axios.get(url);
+
+      if(resposta.status === 200) {
+        console.log('Informações da api', resposta.data)
+      } else {
+        console.log('Erro ao buscar informações da api')
+      }
+    } 
+    catch (error) {
+      console.log(`Error: ${error}`)
     }
+  }
 
-    useEffect(() => {
-        carregarDadosApi();
-    }, [])
+  useEffect(() => {
+    carregarDadosApi();
+  }, [])
 
-    return (
-        <Container>
-            RequestAPI
-            <CgLogIn />
-        </Container>
-    )
+  return (
+    <Container>
+        RequestApi <FaRegHeart /> <FaMap />
+    </Container>
+  )
 }
