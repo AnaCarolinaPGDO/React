@@ -21,9 +21,6 @@
 ###
 
 <br clear="both">
-
-<p align="center">Resultados:</p>
-
 ###
 
 <div align="center">
