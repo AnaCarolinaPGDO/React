@@ -25,7 +25,8 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="![Captura de tela_1-11-2024_113446_localhost](https://github.com/user-attachments/assets/d3840120-89c6-4c6d-a4d5-c4f6b922b121)
+"  />
 </div>
 
 ###
