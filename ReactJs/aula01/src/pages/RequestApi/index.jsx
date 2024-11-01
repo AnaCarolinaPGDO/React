@@ -9,7 +9,7 @@ export const RequestApi = () => {
 
     async function carregarDadosApi(){
 
-        const url = 'https://66f4ad8277b5e889709a277e.mockapi.io/api/v1/users'
+        const url = 'https://66f4ad8277b5e889709a277e.mockapi.io/api/v1/users';
 
         try {
             const resposta = await axios.get(url);
