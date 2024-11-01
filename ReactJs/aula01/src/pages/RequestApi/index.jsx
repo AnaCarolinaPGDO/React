@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Container } from './style';
 import axios from 'axios'
+import { CgLogIn } from "react-icons/cg";
 
 export const RequestApi = () => {
 
@@ -32,6 +33,7 @@ export const RequestApi = () => {
     return (
         <Container>
             RequestAPI
+            <CgLogIn />
         </Container>
     )
 }

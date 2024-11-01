@@ -8,6 +8,7 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
+
 export const ContentForms = styled.div`
   width: 20%;
   height: 50%;

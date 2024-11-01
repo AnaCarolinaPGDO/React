@@ -1,6 +1,6 @@
 import { Button } from "../../components/Button";
 import { InputField } from "../../components/InputField";
-import { Container, Tittle, ContentForms } from "./style";
+import { Container, ContentForms } from "./style";
 
 export const Login = () => {
 
