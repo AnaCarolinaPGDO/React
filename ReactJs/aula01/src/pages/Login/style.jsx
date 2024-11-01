@@ -19,7 +19,3 @@ export const ContentForms = styled.div`
   padding: 0 20px;
   box-shadow: 50cap;
 `;
-
-export const button = styled.h1`
-  background-color: aqua;
-`;
