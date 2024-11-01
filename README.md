@@ -1,4 +1,6 @@
 ![Captura de tela_1-11-2024_113446_localhost](https://github.com/user-attachments/assets/69e6d040-0530-4a36-adf2-5f84663618de)
+![Captura de tela_1-11-2024_161430_localhost](https://github.com/user-attachments/assets/a0b87b69-a918-491b-aac3-6c9b39264969)
+
 
 <p align="center">As páginas replicadas foram do Facebook (Home e Login)</p>
 
