@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #838383;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -11,5 +11,5 @@ export const Container = styled.div`
 
 export const Title = styled.span`
   font-size: 30px;
-  color: red;
+  color: #0004ff;
 `;

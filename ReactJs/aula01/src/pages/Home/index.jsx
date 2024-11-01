@@ -6,7 +6,6 @@ import { AulaImutabilidadeArray } from "../Aula-imutabilidadeArray";
 
 export const Home = () => {
   return (
-    
     <div className="home-container">
       <h1>Facebook</h1>
       <div className="card-container">
