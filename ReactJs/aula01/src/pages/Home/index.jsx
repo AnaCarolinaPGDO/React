@@ -4,52 +4,18 @@ import {About} from '../About'
 import './style.css'
 
 export const Home = () => {
-  function entrarNaPagina() {
-    alert("Essa função e para logar");
-  }
-
-  function esqueciMinhaSenha() {
-    alert("Essa função e de esqueci minha senha");
-  }
-
-  function cadastrarUsuario() {
-    alert("Essa função e para cadastrar");
-  }
-  
-  
   return (
-    <>
     
-    <div className="container">
-      
-      <ContainerText nome="Felipe">
-        Usuario cadastrado com sucesso
-      </ContainerText>
-
-      <ContainerText nome="Felipe">
-        Faltou inserir informações de login
-      </ContainerText>
+        <CardContainer class="CardContainer">
+        <Card>
+          <h1>Bem-vindo(a)!</h1>
+          <h5>Clique abaixo e saiba mais sobre os novos planos de Sócio Torcedor com mais benefícios e vantagens</h5>
+          <p>{card}</p>
+        </Card>
+      </CardContainer>
       
       
-      {/* <ButtonComponents nome="Entrar" /> */}
-
-      {/* <ButtonComponents 
-        nome="Cadastrar" 
-        funcao={cadastrarUsuario} 
-      />
-
-      <ButtonComponents 
-        nome="Entrar" 
-        funcao={entrarNaPagina} 
-      />
-
-      <ButtonComponents 
-        nome="Esqueci minha senha" 
-        funcao={esqueciMinhaSenha} 
-      /> */}
-    </div>
-    </>
-
+    
   );
 };
 

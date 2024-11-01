@@ -11,6 +11,16 @@ export const Login = () => {
 
   return (
     <Container>
+<div class='text1'>
+      <h1>
+        Facebook
+        </h1>
+    
+          <span>O Facebook ajuda você a se conectar e 
+          compartilhar com as pessoas que fazem 
+          parte da sua vida</span>
+          </div>
+        
 
       <ContentForms>
 
@@ -19,29 +29,18 @@ export const Login = () => {
         <InputField propsplaceholder="Digite sua senha" propstype="password" />
 
         <Button class='button' title="Entrar" handleFunction={handleLogin} />
-
+      
+      
         <span button class='senha' handleFuncion={handleLogin} >Esqueceu a senha?</span>
         
-        <Button class='button2' title="Criar Conta" handleFunction={handleLogin} />
 
+        <Button class='Button2' title="Criar Conta" handleFunction={handleLogin} />
+
+        
         <h4>Criar uma página</h4>
         <span>para uma celebridade, uma marca ou empresa.</span>
-
+        
       </ContentForms>
-
-      
-      <div class="">
-      <h1>
-        Facebook
-        </h1>
-        </div>
-
-        <div>
-          <span>O Facebook ajuda você a se conectar e </span>
-          <span>compartilhar com as pessoas que fazem </span>
-          <span>parte da sua vida</span>
-        </div>
     </Container>
-
   );
 };
