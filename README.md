@@ -1,3 +1,37 @@
-Tentativa de Replicar:
-![image](https://github.com/user-attachments/assets/c2aa789d-6d28-4c91-9465-72c5afb81e65)
-![image](https://github.com/user-attachments/assets/8f256557-d838-43ab-a996-29f98f51a7d6)
+<p align="center">As páginas replicadas foram do Facebook (Home e Login)</p>
+
+###
+
+<div align="center">
+  <img height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfXFKKblI4CL-R-4tdqc5l0kFrJIcakg6Ow&s"  />
+</div>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
+###
+
+<p align="left">Eu usei styled-components, components e as pages para criar a interface similar do Login, e tentei para o Home.</p>
+
+###
+
+<br clear="both">
+
+<p align="center">Resultados:</p>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
+###
